@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app {
+  min-height: 100vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+header {
+  text-align: center;
+  height: 10vh;
+  border-bottom: 1px solid #000;
+}
+
+.userColumn {
+  border-right: solid 1px #000;
+  min-height: 80vh;
+}
+
+.questionColumn {
+  text-align: center;
+}
+
+
+.form-box {
+  margin: 10px;
+}
+
+.form-input {
+  border: 1px black solid;
+  width: 100%;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+button {
+  border: 1px solid #000;
+
+}
+
+.ratioBar {
+  height: 50px;
+  width: 500px;
+}
+
+.ratioBarFull {
+  float: left;
+}
+
+.barContainer {
+  text-align: -webkit-center;
+}
+
+.resultPercent {
+  padding: 0px 5px;
+}
+
+.resultText {
+  flex: auto;
+  float: right;
+  display: inline-flex;
+}
+
+.resultPercent, .resultText {
+  position:relative;
+  z-index: 9999;
+}
+
+footer {
+  height: 10vh;
+  text-align: center;
+  border-top: 1px solid #000;
+}
